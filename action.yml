@@ -11,7 +11,7 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'docker://alpine:3.10'
+  image: 'docker://alpine:3.13'
   args:
     - ${{ inputs.who-to-greet }}
   pre-entrypoint: 'entrypoint.sh'
