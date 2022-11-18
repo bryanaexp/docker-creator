@@ -14,6 +14,6 @@ runs:
   image: 'docker://alpine:3.13'
   args:
     - ${{ inputs.who-to-greet }}
-  pre-entrypoint: 'entrypoint.sh'
+  pre-entrypoint: '/entrypoint.sh'
 
   entrypoint: '/entrypoint.sh'
