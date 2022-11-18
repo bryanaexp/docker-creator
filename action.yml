@@ -18,6 +18,6 @@ steps:
   - name: My first step
     uses: actions/hello_world@main
     with:
-      first_name: Mona
-      middle_name: The
-      last_name: Octocat
+      first_name: MEOW
+      middle_name: MEEEWWW
+      last_name: WOW
