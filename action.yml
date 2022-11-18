@@ -11,3 +11,5 @@ runs:
 steps:
   - name: My first step
     run: cp entrypoint.sh /entrypoint.sh
+  - name: Broke
+    run: eehoa;af1934u09uUB. kj cd. ealnafa ls
