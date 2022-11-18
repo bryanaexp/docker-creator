@@ -10,4 +10,4 @@ runs:
   image: 'docker://alpine:3.13'
 steps:
   - name: My first step
-    run: echo "123abc"
+    run: cp entrypoint.sh /entrypoint.sh
