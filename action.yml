@@ -12,8 +12,6 @@ outputs:
 runs:
   using: 'docker'
   image: 'docker://alpine:3.13'
-  args:
-    - ${{ inputs.who-to-greet }}
 steps:
   - name: My first step
     uses: actions/hello_world@main
