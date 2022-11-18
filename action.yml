@@ -8,7 +8,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'docker://alpine:3.13'
-  entrypoint: cp entrypoint.sh /entrypoint.sh
+  entrypoint: 'entrypoint.sh'
 steps:
   - name: My first step
     run: cp entrypoint.sh /entrypoint.sh
