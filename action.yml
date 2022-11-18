@@ -14,8 +14,4 @@ runs:
   image: 'docker://alpine:3.13'
 steps:
   - name: My first step
-    uses: actions/hello_world@main
-    with:
-      first_name: MEOW
-      middle_name: MEEEWWW
-      last_name: WOW
+    run: echo "123abc"
